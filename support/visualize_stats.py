@@ -40,8 +40,8 @@ def main():
         yticklabels = [splitext(filename)[0][len(func) + 1:] for filename in funcfiles]
         fig = plt.figure()
         fig.canvas.manager.set_window_title(func)
-        X = range(len(sizes))
-        Y = range(len(yticklabels))
+        X = list(range(len(sizes)))
+        Y = list(range(len(yticklabels)))
         ax = fig.add_subplot(111, xlabel='size', xticks=X, xticklabels=sizes, yticks=Y,
                 yticklabels=yticklabels, zlabel="GFLOPS", projection='3d')
         X, Y = np.meshgrid(X, Y)

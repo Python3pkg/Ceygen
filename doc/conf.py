@@ -40,8 +40,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Ceygen'
-copyright = u'2013, Matěj Laitl'
+project = 'Ceygen'
+copyright = '2013, Matěj Laitl'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -186,8 +186,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'Ceygen.tex', u'Ceygen Documentation',
-   u'Matěj Laitl', 'manual'),
+  ('index', 'Ceygen.tex', 'Ceygen Documentation',
+   'Matěj Laitl', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -216,8 +216,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'ceygen', u'Ceygen Documentation',
-     [u'Matěj Laitl'], 1)
+    ('index', 'ceygen', 'Ceygen Documentation',
+     ['Matěj Laitl'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -230,8 +230,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'Ceygen', u'Ceygen Documentation',
-   u'Matěj Laitl', 'Ceygen', 'One line description of project.',
+  ('index', 'Ceygen', 'Ceygen Documentation',
+   'Matěj Laitl', 'Ceygen', 'One line description of project.',
    'Miscellaneous'),
 ]
 

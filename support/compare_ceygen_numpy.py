@@ -45,7 +45,7 @@ def main():
         variants = [filename.split('.')[1].split('-')[0] for filename in funcfiles]
         fig = plt.figure()
         fig.canvas.manager.set_window_title(func)
-        X = range(len(sizes))
+        X = list(range(len(sizes)))
 
         # compute relative times
         for i in range(len(sizes)):
